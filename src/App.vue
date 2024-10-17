@@ -3,8 +3,7 @@ import { ref } from 'vue';
 import ResearcherProfile from './components/ResearcherProfile.vue';
 import type { ResearcherData } from './types';
 
-const researcherData = ref<ResearcherData>(
-  {
+const researcherData = ref<ResearcherData>({
   spaceId: '956',
   jobUid: '878cc9b8-4567-4537-b1f0-5a86e0d75dfb',
   articleId: 98765,
